@@ -2,7 +2,7 @@ let osc;
 
 function setup() {
   let cnv = createCanvas(500, 500);
-  background(600);
+  background(800);
   textAlign(CENTER);
   text('tap to play', width/2, height/2);
 
