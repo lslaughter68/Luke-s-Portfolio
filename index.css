@@ -1,6 +1,7 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
-</style>
-<body>
-font-family: 'New Tegomin', serif;
-</body>
+html,body {
+  background-color: red;
+  color: lightgreen;
+  text-align: center;
+  border: 3px solid black;
+  font-family: 'New Tegomin', serif;
+}
