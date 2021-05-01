@@ -15,15 +15,15 @@ function setup() {
 }
 
 function loaded() {
-  song.play();
+  console.log("loaded");
 }
 
 function togglePlaying() {
   if (!song.isPlaying()) {
   song.play();
-  button.html("pause");
+  button.html("stop");
 } else {
-  song.pause();
+  song.stop();
   button.html("play");
 }
 }
@@ -34,6 +34,7 @@ function draw() {
   text('Volume left', 10, 30);
   text('Rate center', 10, 80);
   text('Pan right', 10, 130);
+  song.button;
   song.setVolume(slider.value());
   song.rate(sliderRate.value());
   song.pan(sliderPan.value());
