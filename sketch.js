@@ -26,6 +26,7 @@ function togglePlaying() {
   song.pause();
   button.html("play");
 }
+}
 
 function draw() {
   background(255);
